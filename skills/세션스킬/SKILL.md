@@ -479,7 +479,7 @@ A 분기 시 *어느 영역이 채워지면 어느 단계 판단이 가능*해�
 
 세션 후 아래 4 질문에 **자유 본문**으로 답변하면 SKILL이 회고 entry를 다음 위치에 **자동 저장 시도**:
 
-**저장 위치**: `~/.claude/skills/세션스킬/feedback/sessions_YYYYMM.md` (월별 1 파일·세션별 entry 자동 누적)
+**저장 위치**: `~/.claude/commands/세션스킬-plugin/skills/세션스킬/feedback/sessions_YYYYMM.md` (월별 1 파일·세션별 entry 자동 누적)
 
 - 추천한 영역·패턴이 세션 대상자에게 정합했는가?
 - 잘못 적용된 영역이나 패턴이 있었는가?
@@ -790,7 +790,7 @@ Fallback 출력도 기본적으로 상태·후보·보류 이유·개입 지점�
     - **세션 대상자 직무 (LD·OM·B2B 영업·마케팅 등)는 헤더 X**·메타 영역에 박힘 (14번 *세션 담당자 ≠ 세션 대상자* 정합)
 
     **저장 양식**:
-    - 위치: `~/.claude/skills/세션스킬/feedback/sessions_YYYYMM.md` (월별 1 파일·자동 분할)
+    - 위치: `~/.claude/commands/세션스킬-plugin/skills/세션스킬/feedback/sessions_YYYYMM.md` (월별 1 파일·자동 분할)
     - 양식: md·세션별 entry 자동 누적·git push 가능
     - 자동 file write 시도·실패 시 본문 출력 fallback·세션 담당자 수동 복사
 
